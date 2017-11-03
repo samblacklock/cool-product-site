@@ -4,9 +4,9 @@ import styles from './style.module.css';
 class Header extends Component {
   render() {
     return (
-      <div className={styles.header}>
-        <h1>yo man this isthe header</h1>
-      </div>
+      <section className={styles.header}>
+        
+      </section>
     );
   }
 }

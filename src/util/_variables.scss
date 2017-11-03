@@ -1,0 +1,29 @@
+$red: rgba(254, 74, 73, 1);
+$blue: rgba(42, 183, 202, 1);
+$pink: rgba(244, 194, 194, 1);
+$yellow: rgba(254, 215, 102, 1);
+$white: #fefefe;
+
+$primary-color-300: scale-color($pink, $lightness: -10%);
+$primary-color-400: scale-color($pink, $lightness: -5%);
+$primary-color-500: $pink;
+$primary-color-600: scale-color($pink, $lightness: 20%);
+$primary-color-700: scale-color($pink, $lightness: 40%);
+
+$secondary-color-300: scale-color($blue, $lightness: -10%);
+$secondary-color-400: scale-color($blue, $lightness: -5%);
+$secondary-color-500: $blue;
+$secondary-color-600: scale-color($blue, $lightness: 20%);
+$secondary-color-700: scale-color($blue, $lightness: 40%);
+
+$tertiary-color-300: scale-color($yellow, $lightness: -10%);
+$tertiary-color-400: scale-color($yellow, $lightness: -5%);
+$tertiary-color-500: $yellow;
+$tertiary-color-600: scale-color($yellow, $lightness: 20%);
+$tertiary-color-700: scale-color($yellow, $lightness: 40%);
+
+$quarternary-color-300: scale-color($red, $lightness: -10%);
+$quarternary-color-400: scale-color($red, $lightness: -5%);
+$quarternary-color-500: $red;
+$quarternary-color-600: scale-color($red, $lightness: 20%);
+$quarternary-color-700: scale-color($red, $lightness: 40%);
